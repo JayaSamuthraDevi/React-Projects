@@ -13,7 +13,7 @@ const Categories = () => {
           return (
             <div
               key={item.id}
-              className="p-4 flex justify-center items-center hover: scale-105 duration-300"
+              className="p-4 flex justify-center items-center hover:scale-105 duration-300"
             >
               <img
                 className="object-cover rounded-xl w-40 h-10 cursor-pointer shadow-xl"

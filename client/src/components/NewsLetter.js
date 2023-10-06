@@ -7,8 +7,9 @@ const NewsLetter = () => {
         <div className="lg:col-span-2 my-4">
           <h1>Need advice on how to improve your flow?</h1>
           <p>Sign Up to join our newsletter and stay up to date.</p>
+          <hr className="my-8 bg-gray-700 border-1 gark:bg-gray-700 w-[40%]" />
         </div>
-
+        
         <div className="my-4">
           <div className="flex flex-col sm:flex-row items-center justify-between w-full">
             <input
@@ -26,7 +27,7 @@ const NewsLetter = () => {
             <span className="text-[#00df9a]">Privacy Policy</span>
           </p>
         </div>
-        <hr className="my-8 bg-gray-700 border-1 gark:bg-gray-700" />
+        
       </div>
     </div>
   );
